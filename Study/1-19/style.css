@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* --- 全体のリセット設定 --- */
+* {
+    box-sizing: border-box; /* 線の太さ(border)を含めてサイズ計算する設定 */
+    margin: 0;
+    padding: 0;
+}
+
+/* --- 全体を包む箱 --- */
+.wrap {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* --- ヘッダー（オレンジ） --- */
+header {
+    background-color: #FFCE7a;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/* ヘッダーの中の白い箱 */
+.header-box {
+    background-color: #ffffff;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 白い箱の中の小さい緑の箱 */
+.green-box-small {
+    background-color: #C2FFC8;
+    width: 40px;
+    height: 40px;
+}
+
+/* --- メインエリア --- */
+.container {
+    display: flex;
+    height: 250px;
+    width: 100%;
+}
+
+/* 左サイドバー（水色） */
+.sidebar {
+    background-color: #9DDDF4;
+    width: 150px;
+    height: 100%;
+}
+
+/* 右コンテンツ（緑色） */
+.content {
+    background-color: #C2FFC8;
+    width: 250px;
+    height: 100%;
+    /* 中身の配置 */
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/* --- ピンク色の箱（修正箇所） --- */
+.pink-box {
+    background-color: #FFC2C5; /* ピンク色 */
+    width: 140px;
+    height: 40px;
+    border: 3px solid #ffffff; /* 5pxの白い実線をつける */
+    
+    padding: 10px;      /* 中の余白（文字が入った時用） */
+    margin-bottom: 20px;/* 下の隙間 */
+}
+
+.pink-box:last-child {
+    margin-bottom: 0;
+}
+
+/* --- フッター（紫色） --- */
+footer {
+    background-color: #BEA5FF;
+    height: 100px;
+    width: 100%;
+}

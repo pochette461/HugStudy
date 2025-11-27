@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* --- 画面幅が479pxまでの場合のみ適用される設定 --- */
+@media screen and (max-width: 479px) {
+
+    /* 1. 全体の幅を「200px」にする */
+    .wrap {
+        width: 200px;
+    }
+
+    /* 2. ヘッダーの調整 */
+    header {
+        height: 200px;
+        padding-right: 70px; 
+    }
+
+    /* ヘッダーの中の白い箱 */
+    .header-box {
+        flex-direction: column; /* 縦並び */
+        width: 60px;
+        height: 160px;
+    }
+
+    /* 3. メインエリアを「縦並び」にする */
+    .container {
+        flex-direction: column; /* 縦並び */
+        height: auto;           /* 高さは自動調整 */
+    }
+
+    /* 4. 青い箱（上に来る） */
+    .sidebar {
+        width: 100%;
+        height: 150px;
+    }
+
+    /* 5. 緑の箱（下に来る） */
+    .content {
+        width: 100%;
+        
+        /* 画像の指示にある余白 */
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 0;
+        
+        /* ↓↓↓ ここを追加しました ↓↓↓ */
+        /* 下にも余白を作ることで、ピンクの箱の下に緑色を見せる */
+        padding-bottom: 20px; 
+        /* ↑↑↑ ここを追加しました ↑↑↑ */
+    }
+}
