@@ -1,0 +1,108 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  color: white;
+  font-size: 14px;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+  height: 100px;
+  background-color: #FFCE7a;
+  padding: 10px;
+}
+
+.contents {
+  height: 250px;
+}
+
+.left-blue {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #9DDDF4;
+  padding: 10px;
+}
+
+.right-group {
+  float: right;
+  width: 250px;
+  height: 100%;
+}
+
+.right-upper {
+  height: 150px;
+  width: 100%;
+}
+
+.col-green-pink {
+  float: left;
+  width: 150px;
+  height: 100%;
+}
+
+.box-green {
+  height: 50px;
+  background-color: #C2FFC8;
+  position: relative;
+}
+
+.box-pink {
+  height: 100px;
+  background-color: #FFC2C5;
+  position: relative;
+}
+
+.text-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.box-red {
+  float: right;
+  width: 100px;
+  height: 150px;
+  background-color: #F89C9C;
+  padding: 10px;
+  position: relative;
+}
+
+.text-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+.box-yellow {
+  clear: both;
+  height: 100px;
+  width: 100%;
+  background-color: #FFF083;
+}
+
+.footer {
+  height: 100px;
+  background-color: #BEA5FF;
+  padding: 10px;
+}
