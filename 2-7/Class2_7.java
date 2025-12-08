@@ -10,6 +10,6 @@ public class Class2_7 {
             System.out.println(strArray[2]);
             //⑤要素数5のint型の配列intArrayを宣言し、「10」,「20」,「30」,「40」,「50」で初期化
             int[] intArray = {10,20,30,40,50};
-            //配列intArrayの1番目と5番目の要素を出力
+            //配列intArrayの1番目と5番目の要素の数値を合算して出力
             System.out.println(intArray[0]+intArray[4]);}
  }  
