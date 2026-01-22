@@ -10,7 +10,7 @@ package study;
         
         //問③ 設定した名前・年齢・住所をカプセル化されたgetterで呼び出してして下さい。
         System.out.println("名前は、" + person.getName() + "です。");
-        System.out.println("年齢は、" + person.getAge() + "です。");
+        System.out.println("年齢は、" + person.getAge() + "才です。");
         System.out.println("住所は、" + person.getAddress() + "です。");
         }
     }
